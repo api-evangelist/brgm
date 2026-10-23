@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/brgm/integrations
+- https://n8n.io/integrations/brgm/
+- https://composio.dev/toolkits/brgm
+- https://monid.ai/tools/brgm
+checked:
+- https://composio.dev/toolkits/brgm
+- https://monid.ai/tools/brgm
+- https://n8n.io/integrations/brgm/
+- https://zapier.com/apps/brgm/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

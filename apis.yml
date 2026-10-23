@@ -1,23 +1,69 @@
 aid: brgm
+
 name: BRGM
-description: 'BRGM is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: "Le BRGM (Bureau de Recherches Géologiques et Minières) is the French national geological service, a public establishment of reference in Earth sciences applications. It manages soil and subsoil resources and risks, providing research, expertise, and data for sustainable development, environmental protection, and hazard mitigation across France and internationally."
+
 url: https://raw.githubusercontent.com/api-evangelist/brgm/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Geology
+- EarthScience
+- PublicService
+- France
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Security
+  url: security/brgm-vulnerability-disclosure.yml
+- type: SecurityTxt
+  url: well-known/brgm-security.txt
+- type: WellKnown
+  url: well-known/brgm-well-known.yml
+- type: Hosts
+  url: hosts/brgm-hosts.yml
+- type: VulnerabilityDisclosure
+  url: security/brgm-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/brgm-domain-security.yml
 - type: Website
   url: http://www.brgm.fr
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-23'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: http://www.brgm.fr
+    status: null
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Our security address
+Contact: mailto:incident-ssi@brgm.fr
+
+# Our OpenPGP key
+Encryption: https://www.brgm.fr/.well-known/incident-ssi_pgpkey.txt
+
+# Our security acknowledgments page
+Acknowledgments: https://www.brgm.fr/.well-known/hall-of-fame.txt
+
+# Our Languages
+Preferred-Languages: fr,en
+
+Expires: 2030-01-01T00:00:00Z
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQS/NstXim/k9v2MLogcSFGBsEZFNAUCZ+uVpQAKCRAcSFGBsEZF
+NAGnAQCsX03xtmO2hME6R31tHUmTUblPoewES9Ey/FcpL8jufwEA+p5A9nZQBXRR
+LGYzC2oX1w5aUKIs7bDRnFlDKqLRyAc=
+=gDm5
+-----END PGP SIGNATURE-----
